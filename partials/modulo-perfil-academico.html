@@ -1,0 +1,76 @@
+<div id="step-indicator-container"></div>
+<h1 class="page-title">Perfil Académico</h1>
+<p class="page-subtitle">Completa los detalles de tu formación académica para que las empresas conozcan tu preparación.
+</p>
+
+<form id="form-datos-personales" class="form-container">
+  <div class="form-container__grid form-container__grid--academico">
+    <div class="form-field form-field--wide">
+      <label class="form-field__label" for="nombre-completo">Nombre completo</label>
+      <input type="text" id="nombre-completo" class="form-field__input" placeholder="Ej. Alex Johnson"
+        name="nombreCompleto">
+    </div>
+    <div class="form-field form-field--narrow">
+      <label class="form-field__label" for="disponibilidad">Disponibilidad</label>
+      <select id="disponibilidad" class="form-field__select" name="disponibilidad">
+        <option value="">Selecciona disponibilidad</option>
+        <option value="disponible">Disponible</option>
+        <option value="no-disponible">No disponible</option>
+      </select>
+    </div>
+    <div class="form-field form-field--wide">
+      <label class="form-field__label" for="nombre-carrera">Carrera</label>
+      <select id="nombre-carrera" class="form-field__select" name="nombreCarrera">
+        <option value="">Selecciona una carrera</option>
+      </select>
+    </div>
+    <div class="form-field form-field--narrow">
+      <label class="form-field__label" for="nivel">Nivel</label>
+      <select id="nivel" class="form-field__select" name="nivel">
+        <option value="">Selecciona nivel</option>
+        <option value="TSU">Técnico</option>
+        <option value="Licenciatura">Licenciatura</option>
+        <option value="Ingeniería">Ingeniería</option>
+      </select>
+    </div>
+    <div class="form-field form-field--quarter">
+      <label class="form-field__label" for="promedio">Promedio</label>
+      <input type="text" id="promedio" class="form-field__input" placeholder="0.0" name="promedio" inputmode="decimal">
+    </div>
+    <div class="form-field form-field--half">
+      <label class="form-field__label" for="tipo-periodo">Tipo de periodo</label>
+      <select id="tipo-periodo" class="form-field__select" name="tipoPeriodo">
+        <option value="">Selecciona tipo</option>
+        <option value="bimestre">Bimestral</option>
+        <option value="trimestre">Trimestral</option>
+        <option value="cuatrimestre">Cuatrimestral</option>
+        <option value="semestre">Semestral</option>
+        <option value="otro">Otro</option>
+      </select>
+    </div>
+    <div class="form-field form-field--quarter">
+      <label class="form-field__label" for="numero-periodo">Número de periodo</label>
+      <input type="text" id="numero-periodo" class="form-field__input" placeholder="Ej. 7" name="numeroPeriodo">
+    </div>
+    <div class="form-field form-field--full form-field--date">
+      <label class="form-field__label" for="fecha-actualizacion">Fecha de actualización</label>
+      <div class="form-field__wrap form-field__wrap--date">
+        <img src="" alt="" class="form-field__icon form-field__icon--date" width="20" height="20" aria-hidden="true">
+        <span id="fecha-actualizacion-display" class="form-field__static">—</span>
+        <input type="hidden" id="fecha-actualizacion" name="fechaActualizacion" value="">
+      </div>
+    </div>
+  </div>
+  <div class="form-actions">
+    <button type="button" class="btn btn--secondary btn-anterior">Regresar</button>
+    <button type="submit" class="btn btn--primary">Guardar y continuar</button>
+  </div>
+</form>
+
+<p class="security-message">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+  </svg>
+  Tu información académica es visible solo para reclutadores verificados.
+</p>

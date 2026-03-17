@@ -1,0 +1,83 @@
+<h1 class="page-title">Información Institucional</h1>
+<p class="page-subtitle">Proporciona los detalles de tu institución académica para el proceso de reclutamiento.</p>
+
+<form id="form-institucional" class="form-container">
+  <div class="form-container__grid">
+    <div class="form-field">
+      <label class="form-field__label" for="nombre-institucion">Nombre de la Institución</label>
+      <input type="text" id="nombre-institucion" class="form-field__input" placeholder="Ej. Instituto Tecnológico" name="nombreInstitucion">
+    </div>
+    <div class="form-field">
+      <label class="form-field__label" for="cct">CCT (Clave de Centro de Trabajo)</label>
+      <input type="text" id="cct" class="form-field__input" placeholder="12ABC3456D" name="cct">
+    </div>
+    <div class="form-field">
+      <label class="form-field__label" for="correo">Correo</label>
+      <input type="email" id="correo" class="form-field__input" placeholder="institucion@ejemplo.edu.mx" name="correo">
+    </div>
+    <div class="form-field">
+      <label class="form-field__label" for="telefono">Tel&#233;fono</label>
+      <input type="tel" id="telefono" class="form-field__input" placeholder="+52 000 000 0000" name="telefono">
+    </div>
+    <div class="form-field">
+      <label class="form-field__label" for="estado">Estado</label>
+      <select id="estado" class="form-field__select" name="estado">
+        <option value="">Selecciona un estado</option>
+        <option value="aguascalientes">Aguascalientes</option>
+        <option value="baja-california">Baja California</option>
+        <option value="baja-california-sur">Baja California Sur</option>
+        <option value="campeche">Campeche</option>
+        <option value="chiapas">Chiapas</option>
+        <option value="chihuahua">Chihuahua</option>
+        <option value="ciudad-de-mexico">Ciudad de México</option>
+        <option value="coahuila">Coahuila</option>
+        <option value="colima">Colima</option>
+        <option value="durango">Durango</option>
+        <option value="estado-de-mexico">Estado de México</option>
+        <option value="guanajuato">Guanajuato</option>
+        <option value="guerrero">Guerrero</option>
+        <option value="hidalgo">Hidalgo</option>
+        <option value="jalisco">Jalisco</option>
+        <option value="michoacan">Michoacán</option>
+        <option value="morelos">Morelos</option>
+        <option value="nayarit">Nayarit</option>
+        <option value="nuevo-leon">Nuevo León</option>
+        <option value="oaxaca">Oaxaca</option>
+        <option value="puebla">Puebla</option>
+        <option value="queretaro">Querétaro</option>
+        <option value="quintana-roo">Quintana Roo</option>
+        <option value="san-luis-potosi">San Luis Potosí</option>
+        <option value="sinaloa">Sinaloa</option>
+        <option value="sonora">Sonora</option>
+        <option value="tabasco">Tabasco</option>
+        <option value="tamaulipas">Tamaulipas</option>
+        <option value="tlaxcala">Tlaxcala</option>
+        <option value="veracruz">Veracruz</option>
+        <option value="yucatan">Yucatán</option>
+        <option value="zacatecas">Zacatecas</option>
+      </select>
+    </div>
+    <div class="form-field">
+      <label class="form-field__label" for="ciudad">Ciudad</label>
+      <select id="ciudad" class="form-field__select" name="ciudad" disabled>
+        <option value="">Selecciona una ciudad</option>
+      </select>
+    </div>
+    <div class="form-field form-field--codigo">
+      <label class="form-field__label" for="codigo-institucional-admin">Código institucional</label>
+      <div class="form-field__input-row">
+        <input type="text" id="codigo-institucional-admin" class="form-field__input form-field__input--readonly" placeholder="Se generará al hacer clic en el botón" name="codigoInstitucional" readonly>
+        <button type="button" class="btn btn--secondary" id="btn-generar-codigo">Generar código</button>
+      </div>
+    </div>
+  </div>
+  <div class="form-actions">
+    <button type="button" class="btn btn--secondary btn-descartar">Descartar</button>
+    <button type="submit" class="btn btn--primary" id="btn-siguiente-institucional">Guardar y continuar</button>
+  </div>
+</form>
+
+<p class="security-message">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>
+  Tu información está segura y solo se comparte con socios de pasantías verificados.
+</p>

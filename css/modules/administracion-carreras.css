@@ -1,0 +1,31 @@
+/* Administración de carreras */
+
+.admin-carreras {
+  width: 100%;
+}
+
+.admin-carreras__select-wrap {
+  max-width: 400px;
+  margin-bottom: 1.5rem;
+}
+
+.admin-carreras__content {
+  margin-top: 1rem;
+}
+
+.admin-carreras__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.admin-carreras__titulo {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin: 0;
+  flex: 1;
+  min-width: 0;
+}

@@ -1,0 +1,51 @@
+<div id="step-indicator-container"></div>
+<h1 class="page-title">Portafolio y Enlaces Finales</h1>
+<p class="page-subtitle">Comparte tus mejores trabajos. Los reclutadores valoran mucho ver proyectos reales y la calidad
+  de tu ejecución técnica.</p>
+
+<div class="form-info-box">
+  <div class="form-info-box__icon">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24"
+      height="24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-6l-2-2H5a2 2 0 00-2 2z" />
+    </svg>
+  </div>
+  <div class="form-info-box__content">
+    <strong class="form-info-box__title">Importancia de tu Portafolio</strong>
+    <p class="form-info-box__text">Adjuntar un enlace a tu portafolio permite que las empresas visualicen tus
+      habilidades en acción. Asegúrate de que el enlace de Google Drive tenga permisos de lectura para cualquier persona
+      con el link.</p>
+  </div>
+</div>
+
+<form id="form-portafolio" class="form-container">
+  <div class="form-container__grid">
+    <div class="form-field form-field--full">
+      <label class="form-field__label" for="url-portafolio">URL del portafolio (Google Drive / Sitio Web)</label>
+      <input type="text" id="url-portafolio" class="form-field__input"
+        placeholder="https://drive.google.com/drive/folders/..." name="urlPortafolio" autocomplete="url"
+        inputmode="url">
+      <p class="form-field__hint">
+        <img src="images/recomendacion.png" alt="" class="form-field__hint-icon">
+        Recomendamos usar una carpeta de Google Drive organizada con tus mejores proyectos.
+      </p>
+    </div>
+  </div>
+  <div class="form-completion-message" id="form-completion-message">
+    <span class="form-completion-message__icon">✓</span>
+    <span>¡Estás a un paso de completar tu registro! Revisa tus datos antes de finalizar.</span>
+  </div>
+  <div class="form-actions">
+    <button type="button" class="btn btn--secondary btn-regresar">Regresar</button>
+    <button type="submit" class="btn btn--primary">Finalizar Registro</button>
+  </div>
+</form>
+
+<p class="security-message">
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+      d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+  </svg>
+  Tu información será procesada de forma segura para fines de reclutamiento profesional.
+</p>

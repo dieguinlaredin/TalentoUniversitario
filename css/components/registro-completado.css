@@ -1,0 +1,61 @@
+/* Página de confirmación: registro completado */
+
+.registro-completado {
+  max-width: 560px;
+  margin: 2rem auto 3rem;
+  text-align: center;
+}
+
+.registro-completado__card {
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--color-border);
+  padding: 2.5rem 2rem 2rem;
+}
+
+.registro-completado__icon-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.registro-completado__icon {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.registro-completado__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
+}
+
+.registro-completado__subtitle {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  line-height: 1.5;
+  margin-bottom: 1.75rem;
+}
+
+.registro-completado__image-wrap {
+  margin-top: 1rem;
+}
+
+.registro-completado__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--radius-md);
+  border: 1px dashed var(--color-border);
+  display: block;
+  margin: 0 auto;
+}
+
+.registro-completado__footer {
+  margin-top: 2.5rem;
+  font-size: 0.8125rem;
+  color: var(--color-text-muted);
+}

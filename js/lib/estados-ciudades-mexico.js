@@ -1,0 +1,37 @@
+/**
+ * Estados y ciudades de México para el formulario institucional
+ */
+window.ESTADOS_CIUDADES_MEXICO = {
+  "aguascalientes": ["Aguascalientes", "Calvillo", "Jesús María", "Pabellón de Arteaga", "Rincón de Romos", "San Francisco de los Romo", "Tepezalá"],
+  "baja-california": ["Ensenada", "Mexicali", "Tecate", "Tijuana", "Playas de Rosarito", "San Felipe", "San Quintín"],
+  "baja-california-sur": ["La Paz", "Los Cabos", "San José del Cabo", "Cabo San Lucas", "Loreto", "Ciudad Constitución", "Santa Rosalía"],
+  "campeche": ["Campeche", "Carmen", "Champotón", "Calkiní", "Escárcega", "Hopelchén", "Palizada", "Tenabo"],
+  "chiapas": ["Tuxtla Gutiérrez", "Tapachula", "San Cristóbal de las Casas", "Comitán", "Chiapa de Corzo", "Ocosingo", "Palenque", "Villaflores", "Huixtla", "Tonalá"],
+  "chihuahua": ["Chihuahua", "Ciudad Juárez", "Cuauhtémoc", "Delicias", "Parral", "Nuevo Casas Grandes", "Camargo", "Jiménez", "Ojinaga", "Aldama"],
+  "ciudad-de-mexico": ["Alvaro Obregón", "Azcapotzalco", "Benito Juárez", "Coyoacán", "Cuauhtémoc", "Gustavo A. Madero", "Iztacalco", "Iztapalapa", "Magdalena Contreras", "Miguel Hidalgo", "Milpa Alta", "Tláhuac", "Tlalpan", "Venustiano Carranza", "Xochimilco"],
+  "coahuila": ["Saltillo", "Torreón", "Monclova", "Piedras Negras", "Acuña", "Frontera", "Sabinas", "San Juan de Sabinas", "Ramos Arizpe", "Matamoros"],
+  "colima": ["Colima", "Manzanillo", "Tecomán", "Villa de Álvarez", "Armería", "Comala", "Coquimatlán", "Cuauhtémoc", "Ixtlahuacán", "Minatitlán"],
+  "durango": ["Durango", "Gómez Palacio", "Lerdo", "Santiago Papasquiaro", "Canatlán", "Cuencamé", "El Salto", "Guadalupe Victoria", "Nazas", "Pueblo Nuevo"],
+  "estado-de-mexico": ["Toluca", "Naucalpan", "Nezahualcóyotl", "Ecatepec", "Cuautitlán Izcalli", "Tlalnepantla", "Chimalhuacán", "Atizapán", "Tultitlán", "Coacalco", "Nicolás Romero", "Chalco", "Ixtapaluca", "La Paz", "Texcoco", "Metepec", "Huixquilucan", "Zumpango", "Tejupilco", "Valle de Bravo"],
+  "guanajuato": ["León", "Irapuato", "Celaya", "Salamanca", "Guanajuato", "San Miguel de Allende", "Silao", "San Luis de la Paz", "Pénjamo", "Acámbaro", "Salvatierra", "Valle de Santiago", "Dolores Hidalgo", "Moroleón", "Cortazar"],
+  "guerrero": ["Acapulco", "Chilpancingo", "Iguala", "Zihuatanejo", "Taxco", "Chilapa", "Tixtla", "Teloloapan", "Ometepec", "Coyuca de Benítez", "Atoyac", "Tecpan", "San Marcos", "Olinalá", "Huitzuco"],
+  "hidalgo": ["Pachuca", "Tulancingo", "Tula", "Mineral de la Reforma", "Tepeapulco", "Actopan", "Ixmiquilpan", "Huichapan", "Tizayuca", "Tepeji del Río", "Apan", "Zimapán", "Tlaxcoapan", "Progreso", "Mixquiahuala"],
+  "jalisco": ["Guadalajara", "Zapopan", "Tlaquepaque", "Tonalá", "Puerto Vallarta", "Lagos de Moreno", "El Salto", "Ocotlán", "Ciudad Guzmán", "Ameca", "Arandas", "Autlán", "Chapala", "La Barca", "San Juan de los Lagos", "Tepatitlán", "Tequila", "Zacoalco de Torres"],
+  "michoacan": ["Morelia", "Uruapan", "Lázaro Cárdenas", "Zamora", "Apatzingán", "Pátzcuaro", "Sahuayo", "Hidalgo", "La Piedad", "Maravatío", "Zitácuaro", "Tacámbaro", "Jiquilpan", "Cotija", "Puruándiro"],
+  "morelos": ["Cuernavaca", "Cuautla", "Jiutepec", "Temixco", "Yautepec", "Emiliano Zapata", "Jojutla", "Tepoztlán", "Tlayacapan", "Tlaquiltenango", "Puente de Ixtla", "Mazatepec", "Tetecala", "Axochiapan", "Yecapixtla"],
+  "nayarit": ["Tepic", "Bahía de Banderas", "Santiago Ixcuintla", "Compostela", "San Blas", "Xalisco", "Acaponeta", "Tuxpan", "Ruíz", "Tecuala", "Ixtlán del Río", "Ahuacatlán", "Jala", "Santa María del Oro", "Rosamorada"],
+  "nuevo-leon": ["Monterrey", "Guadalupe", "San Nicolás de los Garza", "Apodaca", "Santa Catarina", "San Pedro Garza García", "General Escobedo", "Juárez", "Cadereyta", "Allende", "Linares", "Montemorelos", "Santiago", "Villaldama", "Doctor Arroyo"],
+  "oaxaca": ["Oaxaca de Juárez", "San Juan Bautista Tuxtepec", "Salina Cruz", "Juchitán", "Santa Cruz Xoxocotlán", "Santo Domingo Tehuantepec", "Huajuapan de León", "Ocotlán", "Tlacolula", "Puerto Escondido", "Miahuatlán", "Tuxtepec", "Matías Romero", "Pinotepa Nacional", "Tehuantepec"],
+  "puebla": ["Puebla", "Tehuacán", "San Martín Texmelucan", "Atlixco", "Izúcar de Matamoros", "Cholula", "Huauchinango", "Zacatlán", "Teziutlán", "Libres", "Chignahuapan", "Tecamachalco", "Acatlán", "Tlaxcala (frontera)", "San Andrés Cholula"],
+  "queretaro": ["Querétaro", "San Juan del Río", "Corregidora", "El Marqués", "Tequisquiapan", "Ezequiel Montes", "Cadereyta", "Tolimán", "Amealco", "Jalpan", "Peñamiller", "Arroyo Seco", "Landa de Matamoros", "Pinal de Amoles", "Colón"],
+  "quintana-roo": ["Cancún", "Chetumal", "Playa del Carmen", "Cozumel", "Isla Mujeres", "Felipe Carrillo Puerto", "Tulum", "Bacalar", "Puerto Morelos", "Kantunilkín", "José María Morelos", "Solidaridad", "Othón P. Blanco", "Benito Juárez", "Lázaro Cárdenas"],
+  "san-luis-potosi": ["San Luis Potosí", "Soledad de Graciano Sánchez", "Ciudad Valles", "Matehuala", "Rioverde", "Tamuín", "Ébano", "Tamazunchale", "Cárdenas", "Cerritos", "Villa de Reyes", "Salinas", "Charcas", "Vanegas", "Cedral"],
+  "sinaloa": ["Culiacán", "Mazatlán", "Los Mochis", "Guamúchil", "Guasave", "Escuinapa", "El Fuerte", "Sinaloa de Leyva", "Navolato", "Ahome", "Choix", "Elota", "Mocorito", "Salvador Alvarado", "San Ignacio"],
+  "sonora": ["Hermosillo", "Ciudad Obregón", "Nogales", "San Luis Río Colorado", "Navojoa", "Guaymas", "Agua Prieta", "Caborca", "Puerto Peñasco", "Magdalena", "Cananea", "Huatabampo", "Etchojoa", "Empalme", "Santa Ana"],
+  "tabasco": ["Villahermosa", "Cárdenas", "Comalcalco", "Macuspana", "Paraíso", "Tenosique", "Emiliano Zapata", "Jalpa de Méndez", "Nacajuca", "Centla", "Teapa", "Balancán", "Jonuta", "Tacotalpa", "Cunduacán"],
+  "tamaulipas": ["Reynosa", "Matamoros", "Nuevo Laredo", "Tampico", "Ciudad Victoria", "Ciudad Madero", "Altamira", "El Mante", "Río Bravo", "Valle Hermoso", "San Fernando", "Soto la Marina", "Aldama", "González", "Xicoténcatl"],
+  "tlaxcala": ["Tlaxcala", "Apizaco", "Huamantla", "San Pablo del Monte", "Chiautempan", "Calpulalpan", "Contla", "Tlaxco", "Nanacamilpa", "Ixtacuixtla", "Tepetitla", "Nativitas", "Tetla", "Yauhquemecan", "Zacatelco"],
+  "veracruz": ["Veracruz", "Xalapa", "Coatzacoalcos", "Córdoba", "Orizaba", "Poza Rica", "Minatitlán", "Boca del Río", "Papantla", "San Andrés Tuxtla", "Túxpam", "Martínez de la Torre", "Orizaba", "Fortín", "Córdoba", "Coatzacoalcos", "Agua Dulce", "Álamo", "Pánuco", "Tampico (frontera)"],
+  "yucatan": ["Mérida", "Valladolid", "Progreso", "Tizimín", "Kanasín", "Umán", "Tekax", "Ticul", "Oxkutzcab", "Motul", "Hunucmá", "Izamal", "Maxcanú", "Temax", "Espita"],
+  "zacatecas": ["Zacatecas", "Fresnillo", "Jerez", "Guadalupe", "Calera", "Sombrerete", "Ojocaliente", "Río Grande", "Concepción del Oro", "Nochistlán", "Jalpa", "Villanueva", "Pinos", "Loreto", "Tlaltenango"]
+};

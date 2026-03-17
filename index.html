@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Talento Universitario</title>
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/layout/aside.css">
+  <link rel="stylesheet" href="css/layout/header.css">
+  <link rel="stylesheet" href="css/components/form-container.css">
+  <link rel="stylesheet" href="css/components/form-field.css">
+  <link rel="stylesheet" href="css/components/buttons.css">
+  <link rel="stylesheet" href="css/components/step-indicator.css">
+  <link rel="stylesheet" href="css/components/security-message.css">
+  <link rel="stylesheet" href="css/modules/informacion-institucional.css">
+  <link rel="stylesheet" href="css/modules/datos-personales.css">
+  <link rel="stylesheet" href="css/modules/portafolio.css">
+  <link rel="stylesheet" href="css/components/registro-completado.css">
+</head>
+
+<body>
+  <div id="app">
+    <aside id="aside-container"></aside>
+    <div class="aside-overlay" id="aside-overlay" aria-hidden="true"></div>
+    <nav class="mobile-navbar" id="mobile-navbar" aria-label="Barra principal">
+      <button type="button" class="aside-toggle" id="aside-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span class="aside-toggle__bar"></span>
+        <span class="aside-toggle__bar"></span>
+        <span class="aside-toggle__bar"></span>
+      </button>
+      <div class="mobile-navbar__brand">
+        <img src="images/logo.png" alt="" class="mobile-navbar__logo">
+        <span class="mobile-navbar__title">Talento Universitario</span>
+      </div>
+    </nav>
+    <main id="main-container">
+      <section id="content-block">
+        <!-- El contenido se carga desde partials según la opción del menú -->
+      </section>
+    </main>
+  </div>
+  <script src="js/lib/estados-ciudades-mexico.js"></script>
+  <script src="js/layout/aside-menu.js"></script>
+  <script src="js/components/step-indicator.js"></script>
+  <script src="js/components/form-actions.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/modules/informacion-institucional.js"></script>
+  <script src="js/modules/datos-personales.js"></script>
+  <script src="js/modules/portafolio.js"></script>
+</body>
+
+</html>

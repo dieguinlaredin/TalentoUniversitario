@@ -1,0 +1,65 @@
+<h1 class="page-title">Administración de carreras</h1>
+<p class="page-subtitle">Asigna las carreras disponibles para cada institución. El estudiante elegirá su carrera desde el perfil académico según su institución.</p>
+
+<div class="admin-carreras">
+  <div class="form-field admin-carreras__select-wrap">
+    <label class="form-field__label" for="admin-carreras-institucion">Escoger institución</label>
+    <select id="admin-carreras-institucion" class="form-field__select" name="institucion">
+      <option value="">Selecciona una institución</option>
+    </select>
+  </div>
+
+  <div id="admin-carreras-content" class="admin-carreras__content" style="display: none;">
+    <div class="admin-carreras__header">
+      <h2 id="admin-carreras-institucion-nombre" class="admin-carreras__titulo"></h2>
+      <button type="button" class="btn btn--primary" id="admin-carreras-btn-agregar">Agregar carrera</button>
+    </div>
+    <p id="admin-carreras-empty" class="control-instituciones__empty" style="display: none;">
+      No hay carreras registradas. Agrega una con el botón anterior.
+    </p>
+    <div id="admin-carreras-table-wrap" class="control-instituciones__table-wrap" style="display: none;">
+      <table class="control-instituciones__table" aria-label="Carreras de la institución">
+        <thead>
+          <tr>
+            <th>Carrera</th>
+            <th>Nivel</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody id="admin-carreras-lista">
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- Modal agregar/editar carrera -->
+<div id="modal-carrera" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-carrera-title" aria-hidden="true">
+  <div class="modal__backdrop" id="modal-carrera-backdrop"></div>
+  <div class="modal__box">
+    <div class="modal__header">
+      <h2 id="modal-carrera-title" class="modal__title">Agregar carrera</h2>
+      <button type="button" class="modal__close" id="modal-carrera-close" aria-label="Cerrar">×</button>
+    </div>
+    <form id="form-carrera" class="modal__form">
+      <input type="hidden" id="carrera-id-edit" name="carreraId">
+      <div class="form-field">
+        <label class="form-field__label" for="carrera-nombre">Nombre de la carrera</label>
+        <input type="text" id="carrera-nombre" class="form-field__input" name="nombre" placeholder="Ej. Ingeniería en Sistemas">
+      </div>
+      <div class="form-field">
+        <label class="form-field__label" for="carrera-nivel">Nivel</label>
+        <select id="carrera-nivel" class="form-field__select" name="nivel">
+          <option value="">Selecciona nivel</option>
+          <option value="TSU">TSU</option>
+          <option value="Licenciatura">Licenciatura</option>
+          <option value="Ingeniería">Ingeniería</option>
+        </select>
+      </div>
+      <div class="modal__actions">
+        <button type="button" class="btn btn--secondary" id="modal-carrera-cancelar">Cancelar</button>
+        <button type="submit" class="btn btn--primary">Guardar</button>
+      </div>
+    </form>
+  </div>
+</div>

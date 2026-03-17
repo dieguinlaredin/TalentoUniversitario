@@ -1,0 +1,32 @@
+/* Módulo: Información Institucional */
+
+.page-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: 0.25rem;
+}
+
+.page-subtitle {
+  font-size: 0.9375rem;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+}
+
+/* Código institucional: input + botón en una fila (admin) */
+.form-field__input-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.form-field__input-row .form-field__input {
+  flex: 1;
+  min-width: 0;
+}
+
+.form-field__input--readonly,
+.form-field__input[readonly] {
+  background: var(--color-input-bg);
+  cursor: default;
+}

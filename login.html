@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inicio de sesión - Talento Universitario</title>
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/components/form-field.css">
+  <link rel="stylesheet" href="css/components/buttons.css">
+  <link rel="stylesheet" href="css/pages/login.css">
+</head>
+
+<body class="login-page">
+  <div class="login-page__wrap">
+    <div class="login-card">
+      <header class="login-card__header">
+        <img src="images/logo.png" alt="" class="login-card__logo">
+        <h1 class="login-card__title">Talento Universitario</h1>
+        <p class="login-card__subtitle">Inicia sesión en tu cuenta</p>
+      </header>
+
+      <form id="form-login" class="login-card__form" novalidate>
+        <div class="login-card__fields">
+
+          <div id="login-alerta" role="alert"></div>
+
+          <div class="form-field">
+            <input type="email" id="login-correo" class="form-field__input" placeholder="Correo electrónico"
+              name="correo" autocomplete="email">
+          </div>
+          <div class="form-field">
+            <input type="password" id="login-contrasena" class="form-field__input" placeholder="Contraseña"
+              name="contrasena" autocomplete="current-password">
+          </div>
+          <div class="form-field">
+            <input type="text" id="login-codigo" class="form-field__input"
+              placeholder="Código Institucional (estudiantes)" name="codigoInstitucional" autocomplete="organization">
+          </div>
+        </div>
+        <div class="login-card__actions">
+          <button type="submit" class="btn btn--primary btn--block">Iniciar sesión</button>
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <div id="modal-confirmar" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-titulo">
+
+    <div class="modal">
+      <h2 class="modal__title" id="modal-titulo">Crear cuenta nueva</h2>
+      <p class="modal__body">
+        No encontramos una cuenta con el correo:
+      </p>
+      <p class="modal__email" id="modal-email"></p>
+      <p class="modal__body" style="margin-top:10px;">
+        ¿Deseas registrarte con este correo y contraseña?
+      </p>
+      <div class="modal__actions">
+        <button id="modal-btn-cancelar" class="btn btn--secondary">
+          Cancelar
+        </button>
+        <button id="modal-btn-confirmar" class="btn btn--primary">
+          Sí, crear cuenta
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/login.js"></script>
+</body>
+
+</html>

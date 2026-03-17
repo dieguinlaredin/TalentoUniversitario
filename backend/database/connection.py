@@ -1,14 +1,15 @@
+import os
 import mysql.connector
 from mysql.connector import Error
 
 def get_connection():
     try:
         connection = mysql.connector.connect(
-            host="mysql.railway.internal",
-            user="root",
-            password="yuuiRhHjXpeORsxKmWtwNjIwanAtDPwS",
-            database="talento_universitario",
-            port=3306
+            host=os.getenv("MYSQLHOST"),
+            user=os.getenv("MYSQLUSER"),
+            password=os.getenv("MYSQLPASSWORD"),
+            database=os.getenv("MYSQLDATABASE"),
+            port=int(os.getenv("MYSQLPORT"))
         )
 
         return connection

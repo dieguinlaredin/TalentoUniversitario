@@ -7,7 +7,7 @@ def get_connection():
             host="mysql.railway.internal",
             user="root",
             password="yuuiRhHjXpeORsxKmWtwNjIwanAtDPwS",
-            database="railway",
+            database="talento_universitario",
             port=3306
         )
 
